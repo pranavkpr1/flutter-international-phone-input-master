@@ -241,7 +241,6 @@ class _InternationalPhoneInputState extends State<InternationalPhoneInput> {
               child: TextField(
             keyboardType: TextInputType.phone,
             controller: phoneTextController,
-            autofocus:true,
             decoration: decoration ??
                 InputDecoration(
                   hintText: hintText,
