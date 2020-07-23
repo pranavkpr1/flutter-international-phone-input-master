@@ -99,7 +99,7 @@ class _InternationalPhoneInputState extends State<InternationalPhoneInput> {
     dropdownIcon = widget.dropdownIcon;
 
     phoneTextController.addListener(_validatePhoneNumber);
-    phoneTextController.text = widget.initialPhoneNumber;
+    //phoneTextController.text = widget.initialPhoneNumber;
 
     _fetchCountryData().then((list) {
       Country preSelectedItem;
